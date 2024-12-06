@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="408.0" prefWidth="360.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testgenerator.TOrFAnswers">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <AnchorPane prefHeight="398.0" prefWidth="320.0">
+        <children>
+            <Label fx:id="questionNumberlabel" layoutX="14.0" layoutY="23.0" prefWidth="45.0" text="Label" />
+            <Label fx:id="questionlabel" layoutX="101.0" layoutY="23.0" text="Label" />
+            <Button layoutX="117.0" layoutY="307.0" onAction="#nextQuestion" prefHeight="38.0" prefWidth="86.0" text="NEXT" />
+            <!-- RadioButtons with a ToggleGroup -->
+            <RadioButton fx:id="TrueButton" layoutX="47.0" layoutY="106.0" mnemonicParsing="false" text="True">
+                <toggleGroup>
+                    <ToggleGroup fx:id="myToggleGroup" />
+                </toggleGroup></RadioButton>
+            <RadioButton fx:id="FalseButton" layoutX="47.0" layoutY="155.0" mnemonicParsing="false" text="False" toggleGroup="$myToggleGroup" />
+         <Button layoutX="11.0" layoutY="314.0" mnemonicParsing="false" onAction="#BackToMenu" text="Back" />
+        </children>
+    </AnchorPane>
+</VBox>

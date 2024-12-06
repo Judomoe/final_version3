@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="scrollPane" prefHeight="367.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_version3.NoScrollPane">
+    <content>
+        <AnchorPane fx:id="anc" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #ff8080 0.0%, #b11f1eff 50.0%, #ff8080 100.0%);" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1196.0" prefWidth="543.0">
+            <children>
+                <Label fx:id="question1" layoutX="25.0" layoutY="482.0" text="Q5" />
+                <Label fx:id="queslabel5" layoutX="88.0" layoutY="483.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="515.0" text="Your answer:" />
+                <Label fx:id="userans5" layoutX="239.0" layoutY="522.0" text="Label" />
+                <Label layoutX="88.0" layoutY="543.0" text="Model answer:" />
+                <Label fx:id="modans5" layoutX="239.0" layoutY="549.0" text="Label" />
+                <Label layoutX="26.0" layoutY="146.0" text="Q2" />
+                <Label fx:id="queslabel2" layoutX="89.0" layoutY="147.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="89.0" layoutY="179.0" text="Your answer:" />
+                <Label fx:id="userans2" layoutX="240.0" layoutY="186.0" text="Label" />
+                <Label layoutX="89.0" layoutY="207.0" text="Model answer:" />
+                <Label fx:id="modans2" layoutX="240.0" layoutY="213.0" text="Label" />
+                <Label layoutX="26.0" layoutY="262.0" text="Q3" />
+                <Label fx:id="queslabel3" layoutX="89.0" layoutY="263.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="89.0" layoutY="295.0" text="Your answer:" />
+                <Label fx:id="userans3" layoutX="240.0" layoutY="302.0" text="Label" />
+                <Label layoutX="89.0" layoutY="323.0" text="Model answer:" />
+                <Label fx:id="modans3" layoutX="240.0" layoutY="329.0" text="Label" />
+                <Label layoutX="25.0" layoutY="369.0" text="Q4" />
+                <Label fx:id="queslabel4" layoutX="88.0" layoutY="370.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="402.0" text="Your answer:" />
+                <Label fx:id="userans4" layoutX="239.0" layoutY="409.0" text="Label" />
+                <Label layoutX="88.0" layoutY="430.0" text="Model answer:" />
+                <Label fx:id="modans4" layoutX="239.0" layoutY="436.0" text="Label" />
+                <Label layoutX="25.0" layoutY="40.0" text="Q1" />
+                <Label fx:id="queslabel1" layoutX="88.0" layoutY="41.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="73.0" text="Your answer:" />
+                <Label fx:id="userans1" layoutX="239.0" layoutY="79.0" text="Label" />
+                <Label layoutX="88.0" layoutY="101.0" text="Model answer:" />
+                <Label fx:id="modans1" layoutX="239.0" layoutY="106.0" text="Label" />
+                <Label layoutX="25.0" layoutY="607.0" text="Q6" />
+                <Label fx:id="queslabel6" layoutX="88.0" layoutY="608.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="640.0" text="Your answer:" />
+                <Label fx:id="userans6" layoutX="239.0" layoutY="647.0" text="Label" />
+                <Label layoutX="88.0" layoutY="668.0" text="Model answer:" />
+                <Label fx:id="modans6" layoutX="239.0" layoutY="674.0" text="Label" />
+                <Label layoutX="25.0" layoutY="718.0" text="Q7" />
+                <Label fx:id="queslabel7" layoutX="88.0" layoutY="719.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="751.0" text="Your answer:" />
+                <Label fx:id="userans7" layoutX="239.0" layoutY="757.0" text="Label" />
+                <Label layoutX="88.0" layoutY="779.0" text="Model answer:" />
+                <Label fx:id="modans7" layoutX="239.0" layoutY="784.0" text="Label" />
+                <Label layoutX="25.0" layoutY="827.0" text="Q8" />
+                <Label fx:id="queslabel8" layoutX="88.0" layoutY="828.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="860.0" text="Your answer:" />
+                <Label fx:id="userans8" layoutX="239.0" layoutY="866.0" text="Label" />
+                <Label layoutX="88.0" layoutY="888.0" text="Model answer:" />
+                <Label fx:id="modans8" layoutX="239.0" layoutY="893.0" text="Label" />
+                <Label layoutX="25.0" layoutY="933.0" text="Q9" />
+                <Label fx:id="queslabel9" layoutX="88.0" layoutY="934.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="966.0" text="Your answer:" />
+                <Label fx:id="userans9" layoutX="239.0" layoutY="972.0" text="Label" />
+                <Label layoutX="88.0" layoutY="994.0" text="Model answer:" />
+                <Label fx:id="modans9" layoutX="239.0" layoutY="999.0" text="Label" />
+                <Label layoutX="25.0" layoutY="1039.0" text="Q10" />
+                <Label fx:id="queslabel10" layoutX="88.0" layoutY="1040.0" style="-fx-background-color: red; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 2;" text="Label" />
+                <Label layoutX="88.0" layoutY="1072.0" text="Your answer:" />
+                <Label fx:id="userans10" layoutX="239.0" layoutY="1078.0" text="Label" />
+                <Label layoutX="88.0" layoutY="1100.0" text="Model answer:" />
+                <Label fx:id="modans10" layoutX="239.0" layoutY="1105.0" text="Label" />
+                <Label fx:id="time" layoutX="407.0" layoutY="33.0" text="Time label" />
+                <Label fx:id="score" layoutX="404.0" layoutY="73.0" text="Score Label" />
+                <Button layoutX="230.0" layoutY="1170.0" mnemonicParsing="false" onAction="#backToMenu" text="Button" />
+            <Label layoutX="326.0" layoutY="73.0" prefHeight="18.0" prefWidth="117.0" text="Current score:" />
+            <Label layoutX="339.0" layoutY="110.0" prefHeight="18.0" prefWidth="92.0" text="Total score:" />
+            <Label fx:id="totscore" layoutX="404.0" layoutY="110.0" text="score2" />
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>

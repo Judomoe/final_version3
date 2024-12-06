@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="404.0" prefWidth="542.0" style="-fx-background-color: #663333;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testgenerator.Users">
+    <VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="15.0">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        </padding>
+
+                    <Label fx:id="signupLabel" style="-fx-font-size: 35px; -fx-font-weight: bold; -fx-text-fill: #ffff99; -fx-font-family: 'Showcard Gothic'" text="Sign Up" textFill="#00fbff">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+
+        <TextField fx:id="user_textfield" promptText="Enter your username" />
+
+        <PasswordField fx:id="pass1_textfield" promptText="Enter your password" />
+
+        <PasswordField fx:id="pass2_textfield" promptText="Confirm your password" />
+
+        <Button fx:id="signupButton" onAction="#SignUp" text="Sign Up" />
+      <Label fx:id="warn1" prefHeight="18.0" prefWidth="237.0" text="Please fill all the fields" visible="false">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6710526347160339" blue="0.8947368264198303" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.949999988079071" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </VBox>
+</StackPane>

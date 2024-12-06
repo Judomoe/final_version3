@@ -1,0 +1,9 @@
+.root {
+    -fx-background-image: url("C:\Users\user\Downloads\file(2).png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.background-gradient {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #1e5799, #2989d8);
+}
